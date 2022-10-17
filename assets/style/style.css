@@ -1,0 +1,31 @@
+header {
+  background: #374881 !important;
+}
+
+.navbar {
+  background-color: #374881 !important;
+}
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.start {
+  height: calc( 100vh - 100px);
+  background: url("/assets/img/bg-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 992px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+  .start {
+    background-size: contain;
+    background-position: top;
+  }
+}
+/*# sourceMappingURL=style.css.map */
